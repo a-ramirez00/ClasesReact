@@ -1,6 +1,7 @@
 import CartWidget from './CartWidget'
 import './navbar.css'  // para importar un archivo css
 
+
 // funcion 1
 
 const NavBar = () => {

@@ -3,7 +3,7 @@ import './App.css'
 
 import NavBar from './components/NavBar/NavBar' // importar un componente
 import ItemListContainer from './components/ItemListContainer/ItemListContainer'
-import Contador from './components/ejemplos/contador'
+// import Contador from './components/ejemplos/contador'
 
 // import ComponentePadre from './components/ejemplos/ComponentePadre'
 // import ComponenteHijo from './components/ejemplos/ComponenteHijo'
@@ -21,11 +21,11 @@ function App() {
 
       <NavBar />   {/*  se debe auto cerrar la etiqueta */}
       {/* como pasamos valore? ese valor llega a donde nosotros declaramos el componente */}
-      <ItemListContainer saludo={'Hola MUndo'} />
-      <ItemListContainer saludo={'A calentar el agua del mate'} />
-      <ItemListContainer saludo={'ya es hora del break'} />
+      <ItemListContainer saludo={'Hola MUndo'} /> 
+      {/* <ItemListContainer saludo={'A calentar el agua del mate'} />  */}
+      {/* <ItemListContainer saludo={'ya es hora del break'} /> */}
 
-      <Contador />
+      {/* <Contador /> */}
 
       {/* tecnica de CHILDREN */}
       {/*  
