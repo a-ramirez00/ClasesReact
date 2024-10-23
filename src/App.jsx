@@ -21,7 +21,7 @@ function App() {
 
       <NavBar />   {/*  se debe auto cerrar la etiqueta */}
       {/* como pasamos valore? ese valor llega a donde nosotros declaramos el componente */}
-      <ItemListContainer saludo={'Hola MUndo'} /> 
+      <ItemListContainer saludo={'Hola MUndo'} />
       {/* <ItemListContainer saludo={'A calentar el agua del mate'} />  */}
       {/* <ItemListContainer saludo={'ya es hora del break'} /> */}
 
@@ -38,7 +38,18 @@ function App() {
       </ComponentePadre>
 
 */}
+{
+      // <ComponentePadre title="Mi caja">
+        // <p>Contenido personalizado</p>
+        // <button>clickeame</button>
+      // </ComponentePadre>
 
+      // <ComponentePadre>
+
+      //   <button>clickeame</button>
+      //   <ComponenteHijo />
+      // </ComponentePadre>
+}
     </div>
   )
 }

@@ -1,17 +1,10 @@
 import React from 'react'
 
-const ComponentePadre = ({children}) => {
+const ComponentePadre = ({title, children}) => {
   return (
     <div>
-
-      <div>
-        Navbar
-      </div>
-      {children}
-      <div>
-        footer
-      </div>
-      
+     <h2>{ title}</h2>
+     {children}
     </div>
   )
 }
