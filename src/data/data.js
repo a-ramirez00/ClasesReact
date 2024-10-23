@@ -57,7 +57,7 @@ const getProducts = () => {
 
 // export nombrado
 
-export {getProducts}
+// export {getProducts}
 
 
 
