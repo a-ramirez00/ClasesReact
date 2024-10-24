@@ -1,6 +1,6 @@
 import CartWidget from './CartWidget'
 import './navbar.css'  // para importar un archivo css
-
+import { Link } from 'react-router-dom'
 
 // funcion 1
 
@@ -8,9 +8,18 @@ const NavBar = () => {
     return (
         <nav className='navbar'>
             <div className='brand'>
-                <h2>Ecommerce</h2>
+                <ul>
+                    <li>
+                        <Link to='/'>inicio</Link> </li>
+                    <li>
+                        <Link to="/category/remeras">remeras</Link > </li>
+                    <li>
+                        <Link to='/category/gorras'>gorras</Link> </li>
+                    <li>
+                        <Link to='/category/zapatillas'>zapatillas</Link></li>
+                </ul>
             </div>
-                <CartWidget /> {/* solamente para devolver la imagen del carrito */}
+            <CartWidget /> {/* solamente para devolver la imagen del carrito */}
 
         </nav>
     )
